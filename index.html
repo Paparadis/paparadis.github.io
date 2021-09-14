@@ -3,8 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Samuel Paradis</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/css/uikit.min.css"/>
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/js/uikit-icons.min.js"></script>
 </head>
 <body>
-<p>Ceci est ma page personnelle</p>
+<nav class="uk-navbar-transparent uk-background-secondary uk-navbar-container"
+     uk-navbar="dropbar: true; align: 'center';">
+    <div class="uk-navbar-center uk-light">
+        <ul class="uk-navbar-nav">
+            <li class="uk-active"><a href="#">Accueil</a></li>
+            <li class="">
+                <a href="#">Informations</a>
+                <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="#">Accueil</a></li>
+                        <li><a href="#">Item</a></li>
+                        <li><a href="#">Item</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </div>
+</nav>
+<div class="uk-section uk-section-muted"
+     style="background-image: url(images/matrix.gif); height: calc(100vh - 80px); background-blend-mode: luminosity;">
+    <div class="uk-container">
+        <h1 class="uk-heading-line uk-text-center uk-light"><span>Samuel Paradis</span></h1>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body uk-card-secondary">
+                <p>Développeur Full-Stack et passionné de sécurité informatique</p>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
