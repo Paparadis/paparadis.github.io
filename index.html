@@ -1,46 +1,318 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Samuel Paradis</title>
-    <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/css/uikit.min.css"/>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/js/uikit-icons.min.js"></script>
+    <title>Samuel Paradis | Accueil</title>
+    <!-- web fonts -->
+    <link href="//fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+    <!-- //web fonts -->
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link rel="stylesheet" href="assets/css/customs.css">
 </head>
 <body>
-<nav class="uk-navbar-transparent uk-background-secondary uk-navbar-container"
-     uk-navbar="dropbar: true; align: 'center';">
-    <div class="uk-navbar-center uk-light">
-        <ul class="uk-navbar-nav">
-            <li class="uk-active"><a href="#">Accueil</a></li>
-            <li class="">
-                <a href="#">Informations</a>
-                <div class="uk-navbar-dropdown">
-                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="#">Accueil</a></li>
-                        <li><a href="#">Item</a></li>
-                        <li><a href="#">Item</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li><a href="#">Contact</a></li>
-        </ul>
 
-    </div>
-</nav>
-<div class="uk-section uk-section-muted"
-     style="background-image: url(images/matrix.gif); height: calc(100vh - 80px); background-blend-mode: luminosity;">
-    <div class="uk-container">
-        <h1 class="uk-heading-line uk-text-center uk-light"><span>Samuel Paradis</span></h1>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body uk-card-secondary">
-                <p>Développeur Full-Stack et passionné de sécurité informatique</p>
+<section class="w3l-bootstrap-header">
+    <nav class="navbar navbar-expand-lg navbar-light py-lg-3 py-2">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Site Web Personnel</a>
+            <!-- if logo is image enable this
+          <a class="navbar-brand" href="#index.html">
+              <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+          </a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon fa fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</section>
+<!--  Main banner section -->
+<section class="w3l-main-banner" id="home">
+    <div class="companies20-content">
+        <div class="companies-wrapper">
+            <div class="item">
+
+                <div class="slider-info banner-view text-center">
+                    <div class="banner-info container">
+                        <img src="assets/images/c1.jpg" alt="photo de Samuel Paradis" class="small-img">
+                        <h3 class="banner-text mt-5">Samuel Paradis</h3>
+                        <p class="my-2 mb-1">Expert en sécurité informatique / Développeur <i>full stack</i></p><br>
+                        <p><span>Montérégie</span> |
+                            <span class="flag" target="qc">Québec</span> |
+                            <span class="flag" target="ca">Canada</span></p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
+</section>
+<!--  //Main banner section -->
+<section class="w3l-about ">
+    <div class="skills-bars py-5">
+        <div class="container py-md-3">
+            <div class="heading text-center mx-auto">
+                <h3 class="head">Bienvenue !</h3>
+                <p class="my-3 head">
+                    Adepte d'informatique depuis mes 15 ans, je suis désormais passionné de sécurité informatique.
+                    Je me spécialise dans principalement en cybersécurité, tout en me maintenant à jour sur les
+                    pratiques de développement Web ( <i>front-end</i> et <i>back-end</i> ), logicielles et plus encore.
+                </p>
+            </div>
+        </div>
+        <div class="linkedin-badge-container">
+            <div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="large" data-theme="light"
+                 data-type="HORIZONTAL" data-vanity="samuelparadis14" data-version="v1">
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="w3l-feature-3" id="features">
+    <div class="grid top-bottom">
+        <div class="container">
+            <div class="heading text-center mx-auto">
+                <h3 class="head text-white">Je suis présentement un employé du gouvernement fédéral canadien</h3>
+                <p class="my-3 head text-white">Vous pouvez tout de même me contacter pour toute offre ou demande.</p>
+            </div>
+            <div class="middle-section grid-column text-center mt-5 pt-3">
+                <div class="three-grids-columns">
+                    <span class="fa fa-bullhorn"></span>
+                    <h4>Sensibilisation</h4>
+                    <p>La sensibilisation face à la sécurité informatique, incluant l'hameçonnage sous toute ses formes,
+                        est l'un des éléments clés d'un monde plus sécuritaire.</p>
+
+                </div>
+                <div class="three-grids-columns">
+                    <span class="fa fa-bug"></span>
+                    <h4>Analyse et prévention contre les failles et vulnérabilités</h4>
+                    <p>La lutte contre les failles et vulnérabilités est un point crucial en cybersécurité. Un système
+                        doit être sécuritaire et adopter les bonnes pratiques de sécurité afin de protéger ses données,
+                        ses usagers ainsi que les autres composants du même réseau.</p>
+
+                </div>
+                <div class="three-grids-columns">
+                    <span class="fa fa-code"></span>
+                    <h4>Développement</h4>
+                    <p>Le développement de logiciels et applications Web est un domaine crucial de l'informatique.
+                        Il est impératif de connaître ce domaine et de se maintenir à jour sur les nouvelles tendances
+                        afin d'être d'actualité au niveau de la cybersécurité.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="products-4" id="portfolio">
+    <!-- Products4 block -->
+    <div id="products4-block" class="text-center">
+        <div class="container">
+            <div class="heading text-center mx-auto mb-5">
+                <h3 class="head">Mes passes-temps</h3>
+                <p class="my-3 head">En dehors du travail...</p>
+            </div>
+            <input id="tab1" type="radio" name="tabs" checked>
+            <label class="tabtle" for="tab1">Musique</label>
+
+            <section id="content1" class="tab-content">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block mx-auto hobbies-img" src="assets/images/g1.jpg" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="text-white">Batterie</h5>
+                                <p class="text-white">Je joue de la batterie depuis mes 12 ans, cumulant plusieurs
+                                    années de cours ainsi
+                                    que quelques
+                                    concerts.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block mx-auto hobbies-img" src="assets/images/g3.jpg" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="text-white">Transcription / composition</h5>
+                                <p class="text-white">Je fais de la transcription de chansons ainsi que de la
+                                    composition dans mes temps
+                                    libres.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block mx-auto hobbies-img" src="assets/images/g5.jpg" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="text-white">Autres instruments</h5>
+                                <p class="text-white">La batterie n'est pas mon seul instrument. J'ai également des
+                                    connaissances de base
+                                    en piano, et je
+                                    suis en mesure d'utiliser une multitudes d'instruments de percussions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- Products4 block -->
 </div>
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/lightbox-plus-jquery.min.js"></script>
+<section class="services-12" id="experience">
+    <div class="form-12-content">
+        <div class="container">
+            <div class="grid grid-column-2 ">
+
+                <div class="column1">
+                    <h3 class="mb-5">Expérience professionnelle</h3>
+                    <div class="experience-top">
+                        <h5>2022 - Maintenant</h5>
+                        <h4>Analyste en sécurité informatique - Ministère de la Défense nationale du Canada</h4>
+                        <p class="my-3 text-white">
+                            Emploi à temps plein dans le domaine de la sécurité informatique.
+                            Gestion des vulnérabilités, analyse des risques, développement applicatif, tâches
+                            administratives.
+                        </p>
+                    </div>
+                    <div class="experience-top">
+                        <h5>2019 - 2021</h5>
+                        <h4>Développeur - Ministère de la Défense nationale du Canada</h4>
+                        <p class="my-3 text-white">
+                            Multiples contrats à temps plein ou temps partiel en Alternance Travail-Études en tant que
+                            programmeur-analyste.
+                            Gestion de bases de données, développement avec Oracle APEX, développement en C#.NET,
+                            amélioration de processus internes.
+                        </p>
+                    </div>
+                </div>
+                <div class="column2">
+                    <h3 class="mb-5">Scolarité</h3>
+                    <div class="experience-top">
+                        <h5>2021 - Maintenant</h5>
+                        <h4>Baccalauréat en informatique - Université Laval</h4>
+                        <p class="my-3 text-white">Formation universitaire en informatique.</p>
+                    </div>
+                    <div class="experience-top">
+                        <h5>2020-2021</h5>
+                        <h4>Mathématiques - Cégep à distance</h4>
+                        <p class="my-3 text-white">Cours de mathématiques étant des préalables universitaires.</p>
+                    </div>
+                    <div class="experience-top">
+                        <h5>2018-2021</h5>
+                        <h4>Techniques de l'informatique - Cégep de Saint-Jean-sur-Richelieu</h4>
+                        <p class="my-3 text-white">
+                            Techniques de l'informatique au collégial, avec affiliation avec le club de sécurité
+                            informatique.
+                            Alternance Travail-Études.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- grids block 5 -->
+<section class="w3l-footer-29-main" id="footer">
+    <div class="footer-29 text-center">
+        <div class="container">
+
+            <div class="main-social-footer-29">
+
+                <a href="https://www.facebook.com/samuel.paradis" class="facebook"><span class="fa fa-facebook"></span></a>
+                <a href="https://www.instagram.com/samuel_paradis14/?hl=fr" class="instagram"><span
+                        class="fa fa-instagram"></span></a>
+                <a href="https://github.com/Paparadis" class="github"><span class="fa fa-github"></span></a>
+                <a href="https://www.linkedin.com/in/samuelparadis14/" class="linkedin"><span
+                        class="fa fa-linkedin"></span></a>
+            </div>
+            <div class="bottom-copies text-center">
+                <p class="copy-footer-29">© 2022 Samuel Paradis | Template de site Web par <a
+                        href="https://w3layouts.com">W3layouts</a></p>
+
+            </div>
+        </div>
+    </div>
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fa fa-angle-up"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- /move top -->
+</section>
+<!-- // grids block 5 -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<!-- //footer-28 block -->
+</section>
+
+<script>
+    $(function () {
+        $('.navbar-toggler').click(function () {
+            $('body').toggleClass('noscroll');
+        })
+    });
+</script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+
 </body>
+
 </html>
